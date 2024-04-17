@@ -1,0 +1,97 @@
+.ab-txt3{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    flex-direction: column;
+}
+hr1{
+    width: 60px;
+    height: 3px;
+    background-color: cornflowerblue;
+    left: 0;
+    border-style: none;
+    right: 0;
+    bottom: 0;
+}
+.service-top{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stretched-link{
+    font-size: 16px;
+}
+.description{
+    font-size: 14px;
+}
+.service-mid{
+    height: 38vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.serice-1{
+    width: 5%;
+    display: flex;
+    height: 21vh;
+}
+.serice-2{
+    width: 25%;
+    height: 17vh;
+}
+.serice-3{
+    width: 5%;
+    display: flex;
+    height: 17vh;
+}
+.title{
+    font-size: 20px;
+}
+.description{
+    font-size: 15px;
+}
+.serice-4{
+    width: 25%;
+}
+.serice-5{
+    width: 5%;
+    display: flex;
+    height: 21vh;
+}
+.serice-6{
+    width: 24%;
+}
+#set-fa{
+    width: 45px;
+    height: 45px;
+    border-style: none;
+    background-color: transparent;
+}
+#set-icn1{
+    font-size: 35px;
+    color: #15a04a;
+}
+#set-icn2{
+    font-size: 35px;
+    color: #f57813;
+}
+#set-icn3{
+    font-size: 35px;
+    color: #d90769;
+}
+#set-icn4{
+    font-size: 35px;
+    color: #15bfbc;
+}
+#set-icn5{
+    font-size: 35px;
+    color: #f5cf13;
+}
+#set-icn6{
+    font-size: 35px;
+    color: #1335f5;
+}

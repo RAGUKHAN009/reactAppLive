@@ -1,0 +1,46 @@
+.blog-cards2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;flex-wrap: nowrap;
+}
+.imghover{
+    width: 295px;
+    height: 220px;
+}
+.card3{
+    width: 100%;
+    height: 100vh;
+}
+#set-card123{
+    border-style: none;
+    width: 22%;
+    height: 90vh;
+}
+
+
+hr{
+    width: 60px;
+    height: 3px;
+    background-color: #56b8e6;
+    left: 0;
+    border-style: none;
+    right: 0;
+    bottom: 0;
+    top: 5px;
+}
+#set-date{
+    color: #56b8e6;
+}
+#set-link{
+    color: #56b8e6;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+#read-more{
+    color: #56b8e6;
+}

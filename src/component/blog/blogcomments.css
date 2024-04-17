@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.comment-8{
+    width: 24%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+}
+#cm-8{
+    font-weight: 900;
+    font-size: 20px;
+}
+.comment12{
+    width: 80%;
+    height: 35vh;
+    display: flex;
+}
+.smimg{
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+}
+#fn{
+    font-weight: 800;
+}
+#amaimg{
+    width: 35px;
+    height:35px;
+}
+.comment-rg{
+    display: flex;
+    width: 58%;
+    height: 20vh;
+    padding-left: 10px;
+    flex-direction: column;
+}
+p{
+    margin: 0%;
+}
+
+
+
+.comment123{
+    width: 80%;
+    height: 45vh;
+    display: flex;
+}
+.smimg123{
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+}
+#fn123{
+    font-weight: 800;
+}
+#amaimg123{
+    width: 35px;
+    height:35px;
+}
+.comment-rg123{
+    display: flex;
+    width: 58%;
+    height: 20vh;
+    padding-left: 10px;
+    flex-direction: column;
+}
+p{
+    margin: 0%;
+}
+
+
+
+
+.comment1234{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+#amaimg1234{
+    width: 35px;
+    height:35px;
+}
+.smimg1234{
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+}
+#fn1234{
+    font-weight: 800;
+}
+#amaimg1234{
+    width: 35px;
+    height:35px;
+}
+.comment-rg1234{
+    display: flex;
+    width: 58%;
+    height: 20vh;
+    padding-left: 10px;
+    flex-direction: column;
+}
+p{
+    margin: 0%;
+}

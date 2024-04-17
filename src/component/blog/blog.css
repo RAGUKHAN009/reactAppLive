@@ -1,0 +1,84 @@
+.bg8{
+    width: 100%;
+    height: 310px;
+    background: linear-gradient(#2e465fb8,#2b435cbf),url(./blog-header.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.blog-md{
+    width: 100%;
+    height: auto;
+    display: flex   ;
+    margin-top: 13vh;
+    justify-content: space-between;
+}
+.left-card{
+    width: 63%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 20px;
+}
+#pet{
+    color: #87baf2;
+}
+
+#set-bcard{
+   
+    border-style: none;
+}
+#icns{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    color: #096dd8a8;
+    justify-content: end;
+    
+}
+#one{
+    width: 45px;
+    height: 44px;
+    border-radius: 70px;
+    background-color: #dbf0fa;
+    border-style: none;
+    color: #3ba9dd;
+}
+.b-arrows :hover{
+    color: white;
+    background-color: #48bcf2;
+
+}
+#two{
+    width: 45px;
+    height: 44px;
+    border-radius: 70px;
+    background-color:#48bcf2;
+    color: white;
+    border-style: none;
+}
+
+.b-arrows{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    gap: 18px;
+}
+.right-side{
+    width: 31%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+#det{
+    color: #87baf2;
+}
+.bth:hover{
+    background-color: #3ba9dd;
+    color: black;
+}
+

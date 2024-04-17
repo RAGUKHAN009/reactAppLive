@@ -1,0 +1,100 @@
+.ab-txt2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    flex-direction: column;
+}
+.photo-slider2{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+}
+#setimg3{
+    width: 550px;
+    height: 100vh;
+}
+.photo-left{
+    width: 39%;
+    height: 100vh;
+}
+.slider-right{
+    width: 50%;
+    height: 100vh;
+}
+.carousel{
+    height: 100vh;
+    width: 100%;
+}
+.slide1{
+    background-color: #f7f9fc;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide2{
+    background-color: #f7f9fc;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide3{
+    background-color: #f7f9fc;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slider1-text{
+    width: 100%;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.carousel-controle-next{
+    background-color: black;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    height: 9px;
+    width: 10px;
+    border-radius: 30px;
+}
+.slide-top{
+    font-size: 25px;
+}
+.slide-mid{
+    font-size: 18px;
+    color: #5e7590;
+}
+#slide-end{
+    font-size: 14px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}

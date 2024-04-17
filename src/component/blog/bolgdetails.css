@@ -1,0 +1,99 @@
+.bg9{
+    width: 100%;
+    height: 310px;
+    background: linear-gradient(#2e465fb8,#2b435cbf),url(./blog-header.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.blog-details-md{
+    width: 100%;
+    height: auto;
+    display: flex   ;
+    margin-top: 13vh;
+    justify-content: space-between;
+}
+.blog-details-left{
+    width: 63%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 20px;
+}
+.blog-details-right{
+    width: 31%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+#set-bdt{
+    font-size: 30px;
+    font-weight: bold;
+}
+#blog-dc{
+
+    box-shadow: 1px 1px 20px 0px gainsboro;
+}
+#pet2{
+    color: #467ab3;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 100%;
+
+}
+#last-t{
+    padding: 0px 15px 0px 15px;
+}
+#last-ic{
+    padding: 0px 15px 0px 15px;
+    height: 8vh;
+}
+#last-fl{
+    color: gray;
+}
+#icm{
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.comment1{
+    width: 70%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment-left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.comment1-center{
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    box-shadow: 1px 1px 20px 0px gainsboro;
+    align-items: center;
+}
+.comment-right{
+    width: 80%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+}
+.right-icns{
+    display: flex;
+    color: gray;
+    width: 22%;
+    justify-content: space-around ;
+    font-size: 20px;
+}
+#set-comment-img{
+    width: 120px;
+    border-radius: 100px;
+    height: 120px;
+}
+

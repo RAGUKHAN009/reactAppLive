@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg10{
+    width: 100%;
+    height: 310px;
+    background:linear-gradient(#2e465fb8,#2b435cbf),url(./contact-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact-form{
+    background: url(./contact-bg.png) left top no-repeat ;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-inner{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-icons{
+    width: 35%;
+    height: 51vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form-icons-div{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-icon-sec{
+    width: 28%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.for-icon-radius{
+    width: 39%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 80px;
+    font-size: 25px;
+    background-color: #56b8e6;
+    color: white;
+}
+.form-text-sec{
+    width: 75%;
+    height: 16vh;
+    color: #657a6d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.form-text-sec span{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1c88ba;
+}
+.form-inputs{
+    width: 59%;
+    height: 67vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-input-inner{
+    width: 100%;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-one{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inp-one input{
+    width: 46%;
+    height: 8vh;
+    border: 1px solid #ced4da;
+    padding: 0px 11px 2px;
+}
+#inp2{
+    width: 100%;
+    height: 8vh;
+    border: 1px solid #ced4da;
+}
+#inp3{
+    width: 100%;
+    height: 9vh;
+    border: 1px solid #ced4da;
+}
+.inp-btn{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: delay 3.0s;
+}
+.inp-btn button{
+    padding: 10px 25px 10px 25px;    
+    border: none;
+    background-color: #56b8e6;
+    color: white;
+}
+#detllss{
+    font-size: 14px;
+}

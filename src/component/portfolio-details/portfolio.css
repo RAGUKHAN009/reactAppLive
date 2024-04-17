@@ -1,0 +1,134 @@
+
+.bg13{
+    width: 100%;
+    height: 310px;
+    background: linear-gradient(#2e465fb8,#2b435cbf),url(./portfolio-header.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfolio-list{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-list ul{
+    width: 35%;
+    height: 60%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    list-style: none;
+}
+
+.portfolio-list ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(91, 95, 98);
+    transition : 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio-list ul li:hover{
+    font-weight: 600;
+    color: rgb(52, 53, 54);
+    transition : 0.3s all ease-in-out;
+}
+
+.project-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.portfolio-card {
+    width: 29%;
+    height: 55vh;
+    background-color: #dadee3;
+    overflow: hidden;
+}
+
+.portfolio-card img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.hover-container {
+    color: #000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    flex-direction: column-reverse;
+}
+
+.hover-container:hover {
+    opacity: 100%;
+    transition: all ease-in-out 0.3s;
+    padding-bottom: 20px;
+}
+
+.hover-main {
+    width: 90%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hover-text{
+    width: 60%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hover-text h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.hover-text p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a7a7ae;
+}
+.hover-icns{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#link-in{
+    font-size: 30px;
+    color: #a4acb5;
+    transition : all ease-in-out 0.3s;
+}
+
+#link-in:hover{
+    transition : all ease-in-out 0.3s;
+    color: blue;
+}

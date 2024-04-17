@@ -1,0 +1,28 @@
+.services-cards{
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    background-color: #f7f9fc;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-xl-7 {
+    background-color: white;
+    width: 56%;
+}
+.col-xl-5{
+    width: 40%;
+    padding: 0%;
+    margin: 0%;
+}
+.row{
+    display: flex;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+#set-img12 {
+    width: 100%;
+    height: 50vh;
+}
